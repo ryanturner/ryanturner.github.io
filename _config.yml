@@ -1,9 +1,39 @@
-name: Ryan Turner
-markdown: redcarpet
-highlighter: pygments
-github: https://www.github.com/ryanturner
-about: I am a software engineer from Memphis Tennessee who works mostly on mobile applications, webservices, and web design.
-urls:
-    - text: github
-      url: https://github.com/liamsymonds
+# Site settings
+title: Ryan Turner
+description: 'Im a software engineer in Memphis Tennessee'
+url: 'https://github.com/ryanturner'
 baseurl: 'https://ryanturner.github.io/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Ryan Turner'
+  email: ryan.e.t@gmail.com
+  twitter_username: k0ret
+  facebook_username: 
+  github_username:  ryanturner
+  linkedin_username:  ryanturner
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
