@@ -1,0 +1,13 @@
+BEGIN:VCARD
+N:Turner;Ryan;;;
+GENDER:M
+ADR;INTL;PARCEL;WORK:;;123 S Front St;Memphis;TN;38103;USA
+ADR;DOM;PARCEL;HOME:;;420 N McNeil St;Memphis;TN;38112;USA
+EMAIL;INTERNET:ryan@ryanturner.me
+EMAIL;INTERNET:ryan.e.t@gmail.com
+EMAIL;INTERNET:ryan.turner@autozone.com
+ORG:AutoZone
+TEL;CELL:+1.901.300.0039
+URL:http://ryanturner.me
+KEY;MEDIATYPE=application/pgp-keys:https://keybase.io/ryan_turner/pgp_keys.asc?fingerprint=F782BD7923AFDEFBE8CF7C18AC052C7355286B4F
+END:VCARD
